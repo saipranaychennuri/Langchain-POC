@@ -387,6 +387,7 @@ dependencies = [
     { name = "langchain" },
     { name = "langchain-groq" },
     { name = "langchain-ollama" },
+    { name = "langsmith" },
     { name = "python-dotenv" },
 ]
 
@@ -397,6 +398,7 @@ requires-dist = [
     { name = "langchain", specifier = ">=1.2.14" },
     { name = "langchain-groq", specifier = ">=1.1.2" },
     { name = "langchain-ollama", specifier = ">=1.0.1" },
+    { name = "langsmith", specifier = ">=0.7.23" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
