@@ -10,7 +10,7 @@ load_dotenv()
 if __name__ == '__main__':
     print("Ingesting...")
     loader = TextLoader(
-        file_path=r"C:/Users/chennuri.saipranay/Langchain-POC/mediumblog1.txt",
+        file_path=r"C:\Users\saipr\Langchain-POC\mediumblog1.txt",
         # autodetect_encoding=True.
         encoding="utf-8"
     )
@@ -29,6 +29,7 @@ if __name__ == '__main__':
 
     print('ingesting...')
     PineconeVectorStore.from_documents(texts, embeddings, index_name=os.environ['INDEX_NAME'])
+
     print('finish.')
 
     
